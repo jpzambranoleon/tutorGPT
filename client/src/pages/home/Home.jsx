@@ -2,24 +2,18 @@ import { Laptop } from "@mui/icons-material";
 import {
   Box,
   Container,
-  ImageList,
-  ImageListItem,
-  styled,
   Toolbar,
   Typography,
-  ButtonBase,
   Grid,
   Stack,
-  Button,
   Divider,
   Card,
   CardActionArea,
   CardMedia,
   CardContent,
   Chip,
-  Avatar,
 } from "@mui/material";
-import { blue, pink } from "@mui/material/colors";
+import { pink } from "@mui/material/colors";
 
 export default function Home() {
   return (
@@ -97,6 +91,7 @@ export default function Home() {
         </Container>
         <Grid container spacing={3}>
           <Grid item xs={3}>
+            <Typography>Pages</Typography>
             <Divider />
             <CardActionArea sx={{ p: "5px" }}>
               <Typography fontWeight={500}>🏠 Home</Typography>
@@ -108,7 +103,14 @@ export default function Home() {
           <Grid item xs={9}>
             <Grid container spacing={2}>
               <Grid item xs={12} sm={6} lg={3}>
-                <Card>
+                <Card
+                  sx={{
+                    "&:hover": {
+                      transform: "scale(1.1)",
+                      transition: "transform 0.2s ease-in-out",
+                    },
+                  }}
+                >
                   <CardActionArea>
                     <CardMedia
                       component="img"
@@ -140,17 +142,19 @@ export default function Home() {
                           variant="outlined"
                         />
                       </Stack>
-                      <Typography
-                        textAlign="left"
-                        variant="body2"
-                        color="text.secondary"
-                      ></Typography>
                     </CardContent>
                   </CardActionArea>
                 </Card>
               </Grid>
               <Grid item xs={12} sm={6} lg={3}>
-                <Card>
+                <Card
+                  sx={{
+                    "&:hover": {
+                      transform: "scale(1.1)",
+                      transition: "transform 0.2s ease-in-out",
+                    },
+                  }}
+                >
                   <CardActionArea>
                     <CardMedia
                       component="img"
@@ -175,17 +179,19 @@ export default function Home() {
                           variant="outlined"
                         />
                       </Stack>
-                      <Typography
-                        textAlign="left"
-                        variant="body2"
-                        color="text.secondary"
-                      ></Typography>
                     </CardContent>
                   </CardActionArea>
                 </Card>
               </Grid>
               <Grid item xs={12} sm={6} lg={3}>
-                <Card>
+                <Card
+                  sx={{
+                    "&:hover": {
+                      transform: "scale(1.1)",
+                      transition: "transform 0.2s ease-in-out",
+                    },
+                  }}
+                >
                   <CardActionArea>
                     <CardMedia
                       component="img"
@@ -210,17 +216,19 @@ export default function Home() {
                           variant="outlined"
                         />
                       </Stack>
-                      <Typography
-                        textAlign="left"
-                        variant="body2"
-                        color="text.secondary"
-                      ></Typography>
                     </CardContent>
                   </CardActionArea>
                 </Card>
               </Grid>
               <Grid item xs={12} sm={6} lg={3}>
-                <Card>
+                <Card
+                  sx={{
+                    "&:hover": {
+                      transform: "scale(1.1)",
+                      transition: "transform 0.2s ease-in-out",
+                    },
+                  }}
+                >
                   <CardActionArea>
                     <CardMedia
                       component="img"
@@ -245,11 +253,6 @@ export default function Home() {
                           variant="outlined"
                         />
                       </Stack>
-                      <Typography
-                        textAlign="left"
-                        variant="body2"
-                        color="text.secondary"
-                      ></Typography>
                     </CardContent>
                   </CardActionArea>
                 </Card>
