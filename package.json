@@ -1,0 +1,30 @@
+{
+  "name": "tutorgpt",
+  "version": "1.0.0",
+  "description": "Online tutoring center using AI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpzambranoleon/tutorGPT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpzambranoleon/tutorGPT/issues"
+  },
+  "homepage": "https://github.com/jpzambranoleon/tutorGPT#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.1.5",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.4",
+    "nodemon": "^2.0.22",
+    "openai": "^3.2.1"
+  }
+}
