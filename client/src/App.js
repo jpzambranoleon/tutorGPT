@@ -10,7 +10,7 @@ import { Box, CssBaseline, ThemeProvider, createTheme } from "@mui/material";
 import Chat from "./pages/chat/Chat";
 
 const mdTheme = createTheme();
-// main function 
+// main function to write on
 function App() {
   return (
     <div className="App">
